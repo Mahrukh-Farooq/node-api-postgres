@@ -21,6 +21,10 @@ app.post('/users', db.createUser)
 app.put('/users/:id', db.updateUser)
 app.delete('/users/:id', db.deleteUser)
 
-app.listen(port, () => {
-  console.log(`App running on port ${port}.`)
-})
+//app.listen(port, () => {
+  //console.log(`App running on port ${port}.`)
+//})
+app.listen(port, '0.0.0.0', () => {
+    console.log(`App running on port ${port}.`);
+  });
+  
