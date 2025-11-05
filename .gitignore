@@ -3,8 +3,14 @@ node_modules/
 *.log
 .DS_Store
 
-# Optional: Uncomment if you don't want to commit helper scripts
-# check-env.js
-# verify-password.js
-# test-api.ps1
+# Helper/test scripts (not needed in repo)
+check-env.js
+verify-password.js
+test-api.ps1
+
+# Documentation files (info is in README.md)
+CHANGE_PASSWORD_INSTRUCTIONS.md
+DATABASE_SETUP.md
+GIT_COMMIT_INSTRUCTIONS.md
+change-postgres-password.sql
 
